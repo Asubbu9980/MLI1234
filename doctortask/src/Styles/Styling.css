@@ -1,0 +1,116 @@
+.make{
+    color: white;
+    font-family: "Roboto";
+    font-size: 35px;
+    margin: auto;
+}
+.subtext{
+    color: white;
+    font-size: 22px;
+    font-style: italic;
+}
+.heading{
+    color:blue;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rebeccapurple;
+}
+.back{
+    background-image: url("https://www.alert-software.com/hs-fs/hubfs/it%20department%20hospital.png?width=1280&name=it%20department%20hospital.png");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    overflow: auto;
+
+}
+.card{
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 55px;
+    margin-left: 75px;
+    
+}
+h1{
+    color: rebeccapurple;
+    padding: 6px;
+}
+p{
+    color: rebeccapurple;
+    padding: 6px;
+    
+}
+li{
+    color: rebeccapurple;
+}
+.form-style{
+    background-color: blue;
+}
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+
+
+}
+tr:hover{
+    background-color: aqua;
+
+    
+}
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px; 
+        /* background-color: #f0f0f0;  */
+      }
+.footer1{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.content{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.form-style{
+    margin-left: 25px;
+}
+.anchor{
+    text-decoration: none;
+}
+.form1{
+    margin-left: 150px;
+}
+.image{
+    height: 75px;
+    width: 85px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+
+}
+.move{
+    margin-left: 40px;
+
+}
+nav{
+    width: 100vw;
+}
+@media screen and (min-width:420px) and (max-width:470px){
+    .card{
+        margin-right: 120px;
+    }
+}
+
+    
+    
